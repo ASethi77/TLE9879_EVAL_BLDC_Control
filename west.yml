@@ -1,0 +1,16 @@
+# Copyright (c) Aakash Sethi
+# SPDX-License-Identifier: Apache-2.0
+
+manifest:
+  self:
+    path: infineon_eval_foc
+
+  remotes:
+    - name: zephyrproject-rtos
+      url-base: https://github.com/zephyrproject-rtos
+
+  projects:
+    - name: zephyr
+      remote: zephyrproject-rtos
+      revision: zephyr-v2.7.1
+      import: true
