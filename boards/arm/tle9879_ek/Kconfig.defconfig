@@ -1,0 +1,11 @@
+# Copyright (c) 2022 Aakash Sethi
+# SPDX-License-Identifier: GPL-3.0-only
+
+if BOARD_TLE9879_EK
+
+config BOARD
+	default "tle9879_ek"
+
+# See https://docs.zephyrproject.org/latest/guides/porting/board_porting.html#create-your-board-directory
+
+endif # BOARD_TLE9879_EK

@@ -8,9 +8,11 @@ manifest:
   remotes:
     - name: zephyrproject-rtos
       url-base: https://github.com/zephyrproject-rtos
+    - name: zephyrproject-rtos-fork
+      url-base: https://github.com/ASethi77
 
   projects:
     - name: zephyr
-      remote: zephyrproject-rtos
-      revision: zephyr-v2.7.1
+      remote: zephyrproject-rtos-fork
+      revision: infineon_tle9879_ek_soc
       import: true
